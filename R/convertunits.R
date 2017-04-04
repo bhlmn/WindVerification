@@ -8,9 +8,9 @@
 #' @export
 #' @examples
 #' # convert from mph to m/s
-#' convertUnits(wspds, inunits = "mph")
+#' convertunits(wspds, inunits = "mph")
 
-convertUnits <- function(wspds, inunits = 'm/s', outunits = 'm/s') {
+convertunits <- function(wspds, inunits = 'm/s', outunits = 'm/s') {
 
     # only do a conversion if the units are not the same
     if (inunits != outunits) {

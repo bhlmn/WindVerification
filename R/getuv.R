@@ -8,10 +8,10 @@
 #' @examples
 #' wspd <- 6.0
 #' wdir <- 147
-#' uv <- getUV(wspd, wdir)
+#' uv <- getuv(wspd, wdir)
 
 # function to turn wspd and wdir into a vector of u and v components
-getUV <- function(wspd, wdir) {
+getuv <- function(wspd, wdir) {
 
     # If either wspd or wdir are missing, we cannot do the calculation!
     if (is.na(wspd) | is.na(wdir)) {return(c(NA, NA))}

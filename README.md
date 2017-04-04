@@ -12,9 +12,9 @@ devtools::install_github('bhlmn/WindVerification')
 
 ## Current Functions
 
-**convertUnits** - convert wind speeds from one unit to another
+**convertunits** - convert wind speeds from one unit to another
 
-**getUV** - convert wind speed and wind direction into u and v wind components
+**getuv** - convert wind speed and wind direction into u and v wind components
 
 **getwspdwdir** - convert u and v wind components into wind speed and wind direction
 
