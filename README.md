@@ -16,7 +16,7 @@ devtools::install_github('bhlmn/WindVerification')
 
 **getbae** - calculate the bivariate absolute error for a forecast/observation wind vector pair
 
-**getbMAE** - calculate bivariate mean absolute error over many forecast/observation wind vector pairs
+**getbmae** - calculate bivariate mean absolute error over many forecast/observation wind vector pairs
 
 **getuv** - convert wind speed and wind direction into u and v wind components
 
