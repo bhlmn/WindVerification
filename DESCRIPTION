@@ -1,0 +1,10 @@
+Package: WindVerification
+Title: R package to process and verify wind forecasts from weather models
+Version: 0.0.0.9000
+Authors@R: person("Bryan", "Holman", email = "bryanpholman@gmail.com", role = c("aut", "cre"))
+Description: R package to process and verify wind forecasts from weather models.
+Depends: R (>= 3.3.1)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
