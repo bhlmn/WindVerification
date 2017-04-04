@@ -4,11 +4,11 @@
 \alias{ndbc_10m}
 \title{Calculate the 10-m winds for a vector of wind speed measurements according to Hsu et al. (1994)}
 \usage{
-ndbc_10m(wspd, zm, zref = 10, inunits = "m/s", outunits = "m/s",
+ndbc_10m(wspds, zm, zref = 10, inunits = "m/s", outunits = "m/s",
   to.na = TRUE, missing = -99999)
 }
 \arguments{
-\item{wspd}{vector containing the wind speed observations}
+\item{wspds}{vector containing the wind speed observations}
 
 \item{zm}{the measurement height for wind speed observations (in m)}
 
@@ -27,10 +27,10 @@ This function will return the 10-m winds given vectors of wind observations and 
 }
 \examples{
 # convert from mph to m/s
-ndbc_10m(wspd, 10, inunits = "mph")
+ndbc_10m(wspds, 10, inunits = "mph")
 
 # get potential winds from a station with anemometer height of 4.9 m
-ndbc_10m(wspd, 4.9)
+ndbc_10m(wspds, 4.9)
 }
 \keyword{potential}
 \keyword{wind}
