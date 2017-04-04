@@ -24,7 +24,7 @@ ndbc10m <- function(wspds, zm, zref = 10.0, inunits = "m/s", outunits = "m/s",
     wspds[abs(wspds) > 300] <- NA
 
     # process the units accordingly
-    wspds <- convert_units(wspds, inunits, outunits)
+    wspds <- convertunits(wspds, inunits, outunits)
 
     # use Hsu et al. (1994) formula to convert winds to reference height
     wspds_10m <- wspds * (zref/zm) ^ 0.11

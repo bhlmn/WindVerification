@@ -25,7 +25,7 @@ winds10m <- function(bins, z0, wspds, wdirs, zm, zref = 10.0, inunits = "m/s",
     wdir[abs(wdir) > 360] <- NA
 
     # process the units accordingly
-    wspds <- convert_units(wspds, inunits, outunits)
+    wspds <- convertunits(wspds, inunits, outunits)
 
     # parameters for the loop
     z0_current <- NULL
