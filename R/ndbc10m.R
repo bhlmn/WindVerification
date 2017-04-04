@@ -12,12 +12,12 @@
 #' @export
 #' @examples
 #' # convert from mph to m/s
-#' ndbc_10m(wspds, 10, inunits = "mph")
+#' ndbc10m(wspds, 10, inunits = "mph")
 #'
 #' # get potential winds from a station with anemometer height of 4.9 m
-#' ndbc_10m(wspds, 4.9)
+#' ndbc10m(wspds, 4.9)
 
-ndbc_10m <- function(wspds, zm, zref = 10.0, inunits = "m/s", outunits = "m/s",
+ndbc10m <- function(wspds, zm, zref = 10.0, inunits = "m/s", outunits = "m/s",
                      to.na = TRUE, missing = -99999) {
 
     # change all large values to NA

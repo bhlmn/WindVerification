@@ -15,9 +15,9 @@
 #' @export
 #' @examples
 #' # convert from mph to m/s
-#' winds_10m(bins, z0, wspd, wdir, zm, inunits = "mph")
+#' winds10m(bins, z0, wspd, wdir, zm, inunits = "mph")
 
-winds_10m <- function(bins, z0, wspds, wdirs, zm, zref = 10.0, inunits = "m/s",
+winds10m <- function(bins, z0, wspds, wdirs, zm, zref = 10.0, inunits = "m/s",
                       outunits = "m/s", to.na = TRUE, missing = -99999) {
 
     # change all unrealistic values to NA
