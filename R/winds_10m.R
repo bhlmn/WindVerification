@@ -1,4 +1,4 @@
-#' Calculate the 10-m winds for a vector of wind speed measurements
+#' Calculate the 10-m winds for a vector of wind speed measurements using direction dependent surface roughness information
 #'
 #' This function will return the 10-m winds given vectors of wind observations (wind speed and direction), a vector containing the high end of the wind direction bins, the roughness lengths associated with each wind direction bins, and the measurement height of the wind observations.
 #' @param bins vector containing the cutoffs of the wind direction bins

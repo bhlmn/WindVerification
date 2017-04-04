@@ -2,8 +2,8 @@
 #'
 #' Given a vector of wind speed data, this script applies a multiplier to convert from one type of measurement unit to another. Missing values are allowed.
 #' @param wspds vector containing the wind speed observations
-#' @param inunits units for the wind observations, "m/s" (default), "mph", "knots"
-#' @param outunits desired units for the potential winds, "m/s" (default), "mph", "knots"
+#' @param inunits input units, "m/s" (default), "mph", "knots"
+#' @param outunits desired output units, "m/s" (default), "mph", "knots"
 #' @keywords wind units convert
 #' @export
 #' @examples
