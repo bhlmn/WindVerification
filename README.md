@@ -1,5 +1,5 @@
 # WindVerification
-R Package to calculate potential winds (10-m) from wind observations
+R Package to process and verify wind forecasts from weather models
 
 ## Installation
 
