@@ -18,6 +18,8 @@ devtools::install_github('bhlmn/WindVerification')
 
 **getbmae** - calculate bivariate mean absolute error over many forecast/observation wind vector pairs
 
+**getENorm** - calculate the two dimensional Eucledian norm
+
 **getuv** - convert wind speed and wind direction into u and v wind components
 
 **getwspdwdir** - convert u and v wind components into wind speed and wind direction
@@ -29,8 +31,6 @@ devtools::install_github('bhlmn/WindVerification')
 ## Future Functions
 
 **approxES** - perform an energy score approximation given bivariate PDF parameters
-
-**getENorm** - calculate the two dimensional Eucledian norm
 
 **getES** - calculate the energy score for a discrete ensemble
 
