@@ -3,6 +3,7 @@
 export(convertunits)
 export(getbae)
 export(getbmae)
+export(getenorm)
 export(getuv)
 export(getwspdwdir)
 export(ndbc10m)
