@@ -16,7 +16,7 @@ getbae(ob.u, ob.v, fcst.u, fcst.v)
 \item{fcst.v}{forecast v component of wind}
 }
 \description{
-Calculate the bivariate absolute error for a forecast/observation wind vector pair. Missing values are not allowed and will be returned with a vector of four NAs.
+Calculate the bivariate absolute error for a forecast/observation wind vector pair. Missing values are not allowed and NA will be returned.
 }
 \examples{
 getbae(ob.u, ob.v, fcst.u, fcst.v)

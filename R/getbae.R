@@ -1,6 +1,6 @@
 #' Calculate the bivariate absolute error for a forecast/observation wind vector pair
 #'
-#' Calculate the bivariate absolute error for a forecast/observation wind vector pair. Missing values are not allowed and will be returned with a vector of four NAs.
+#' Calculate the bivariate absolute error for a forecast/observation wind vector pair. Missing values are not allowed and NA will be returned.
 #' @param ob.u observed u component of wind
 #' @param ob.v observed v component of wind
 #' @param fcst.u forecast u component of wind
@@ -15,7 +15,7 @@
 getbae <- function(ob.u, ob.v, fcst.u, fcst.v) {
 
     # If any information is missing, we cannot do the calculation!
-    if (anyNA(c(ob.u, ob.v, fcst.u, fcst.v))) return(c(NA, NA, NA, NA))
+    if (anyNA(c(ob.u, ob.v, fcst.u, fcst.v))) return(NA)
 
     # else return the bAE
     return(sqrt((fcst.u - ob.u)^2 + (fcst.v - ob.v)^2))
