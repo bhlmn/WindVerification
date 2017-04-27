@@ -24,6 +24,8 @@ devtools::install_github('bhlmn/WindVerification')
 
 **getes** - calculate the energy score for a discrete ensemble
 
+**getmvrank** - calculate a multivariate rank (to populate a multivariate rank histogram)
+
 **getuv** - convert wind speed and wind direction into u and v wind components
 
 **getwspdwdir** - convert u and v wind components into wind speed and wind direction
@@ -33,5 +35,3 @@ devtools::install_github('bhlmn/WindVerification')
 **winds10m** - calculate 10-m winds for a vector of wind speed measurements using direction dependent surface roughness information
 
 ## Future Functions
-
-**getMVRank** - calculate a multivariate rank (to populate a multivariate rank histogram)
