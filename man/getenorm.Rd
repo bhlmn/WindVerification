@@ -4,22 +4,32 @@
 \alias{getenorm}
 \title{Calculate the two dimensional Eucledian norm}
 \usage{
-getenorm(x1, x2, y1, y2)
+getenorm(x1, y1, x2, y2)
 }
 \arguments{
 \item{x1}{point 1 x component}
 
-\item{x2}{point 2 x component}
-
 \item{y1}{point 1 y component}
 
+\item{x2}{point 2 x component}
+
 \item{y2}{point 2 y component}
+}
+\value{
+numeric ... the eecledian norm
 }
 \description{
 Calculates the two dimensional Eucledian norm between two points.
 }
 \examples{
-wspdwdir <- getwspdwdir(wspd, wdir)
+point1 <- c(2, 5)
+point2 <- c(7, 9)
+
+# calculate eucledian norm between two points
+enorm <- getenorm(point1[1], point1[2], point2[1], point2[2])
+}
+\author{
+Bryan Holman
 }
 \keyword{eucledian}
 \keyword{normal}

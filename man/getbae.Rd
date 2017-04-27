@@ -15,11 +15,17 @@ getbae(ob.u, ob.v, fcst.u, fcst.v)
 
 \item{fcst.v}{forecast v component of wind}
 }
+\value{
+numeric ... the bivariate absolute error
+}
 \description{
 Calculate the bivariate absolute error for a forecast/observation wind vector pair. Missing values are not allowed and NA will be returned.
 }
 \examples{
 getbae(ob.u, ob.v, fcst.u, fcst.v)
+}
+\author{
+Bryan Holman
 }
 \keyword{absolute}
 \keyword{bivariate}

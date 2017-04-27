@@ -5,6 +5,8 @@
 #' @param ob.v observed v component of wind
 #' @param fcst.u forecast u component of wind
 #' @param fcst.v forecast v component of wind
+#' @return numeric ... the bivariate absolute error
+#' @author Bryan Holman
 #' @keywords wind bivariate absolute error verification
 #' @export
 #' @examples
