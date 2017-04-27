@@ -9,11 +9,11 @@ getes(ob.u, ob.v, ens.us, ens.vs)
 \arguments{
 \item{ob.u}{u-component of verifying wind observation}
 
+\item{ob.v}{v-component of verifying wind observation}
+
 \item{ens.us}{u-components of ensemble wind forecasts}
 
 \item{ens.vs}{v-components of ensemble wind forecasts}
-
-\item{ob.u}{v-component of verifying wind observation}
 }
 \value{
 numeric ... the raw ensemble energy score

@@ -2,7 +2,7 @@
 #'
 #' Calculate the energy score given vectors of u and v ensemble forecasts
 #' @param ob.u u-component of verifying wind observation
-#' @param ob.u v-component of verifying wind observation
+#' @param ob.v v-component of verifying wind observation
 #' @param ens.us u-components of ensemble wind forecasts
 #' @param ens.vs v-components of ensemble wind forecasts
 #' @return numeric ... the raw ensemble energy score
