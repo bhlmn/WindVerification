@@ -20,6 +20,10 @@ devtools::install_github('bhlmn/WindVerification')
 
 **getenorm** - calculate the two dimensional Eucledian norm
 
+**getesapprox** - perform an energy score approximation given bivariate PDF parameters
+
+**getes** - calculate the energy score for a discrete ensemble
+
 **getuv** - convert wind speed and wind direction into u and v wind components
 
 **getwspdwdir** - convert u and v wind components into wind speed and wind direction
@@ -29,9 +33,5 @@ devtools::install_github('bhlmn/WindVerification')
 **winds10m** - calculate 10-m winds for a vector of wind speed measurements using direction dependent surface roughness information
 
 ## Future Functions
-
-**getesapprox** - perform an energy score approximation given bivariate PDF parameters
-
-**getES** - calculate the energy score for a discrete ensemble
 
 **getMVRank** - calculate a multivariate rank (to populate a multivariate rank histogram)
