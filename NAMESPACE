@@ -3,6 +3,7 @@
 export(convertunits)
 export(getbae)
 export(getbmae)
+export(getemosmvrank)
 export(getenorm)
 export(getes)
 export(getesapprox)
