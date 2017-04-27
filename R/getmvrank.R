@@ -24,6 +24,9 @@
 # calculate the multivariate rank
 getmvrank <- function(ob.u, ob.v, ens.us, ens.vs) {
 
+    # Make sure that we have observations and a full ensemble
+    if (anyNA(c(ob.u, ob.v, ens.us, ens.vs))) {return(NA)}
+
     # combine the obs and forecasts
     df.mvrank <- data.frame(us = c(ob.u, ens.us), vs = c(ob.v, ens.vs))
 
