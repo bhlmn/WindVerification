@@ -25,7 +25,7 @@
 getmvrank <- function(ob.u, ob.v, ens.us, ens.vs) {
 
     # combine the obs and forecasts
-    df.mvrank <- data.frame(us = c(ob.u, ens.us), vs = c(v10, ens.vs))
+    df.mvrank <- data.frame(us = c(ob.u, ens.us), vs = c(ob.v, ens.vs))
 
     # create a vector to store the counts, the count for each u/v pair is equal
     # to the number of pairs in the combined obs/forecasts that are to the
