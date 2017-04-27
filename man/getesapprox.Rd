@@ -17,11 +17,11 @@ getesapprox(u, v, mu.u, mu.v, s.u, s.v, rho = 0, n = 10000)
 
 \item{s.u}{square root of u-component of EMOS variance}
 
+\item{s.v}{square root of v-component of EMOS variance}
+
 \item{rho}{u/v correlation coefficient}
 
 \item{n}{number of distribution samples used to approximate energy score}
-
-\item{s.u}{square root of v-component of EMOS variance}
 }
 \value{
 numeric ... the approximate energy score

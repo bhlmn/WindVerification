@@ -6,7 +6,7 @@
 #' @param mu.u u-component of EMOS mean wind vector
 #' @param mu.v v-component of EMOS mean wind vector
 #' @param s.u square root of u-component of EMOS variance
-#' @param s.u square root of v-component of EMOS variance
+#' @param s.v square root of v-component of EMOS variance
 #' @param rho u/v correlation coefficient
 #' @param n number of distribution samples used to approximate energy score
 #' @return numeric ... the approximate energy score
