@@ -58,6 +58,6 @@ getmvrank <- function(ob.u, ob.v, ens.us, ens.vs) {
     # assign the ranks to the sorted dataframe, then return the rank of the
     # observation
     df.mvrank$rank <- 1:n
-    rank <- df.mvrank[df.mvrank$us == ob.u & df.MVRank$vs == v10,]$rank
+    rank <- df.mvrank[df.mvrank$us == ob.u & df.mvrank$vs == v10,]$rank
     return(rank)
 }
