@@ -9,7 +9,7 @@
 #' @param s.v square root of v-component of EMOS variance
 #' @param rho u/v correlation coefficient
 #' @param n number of ensemble members
-#' @return numeric ... the raw ensemble multivariate rank
+#' @return numeric ... the emos multivariate rank
 #' @author Bryan Holman
 #' @keywords multivariate rank wind verification
 #' @export
