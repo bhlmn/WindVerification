@@ -32,6 +32,8 @@ devtools::install_github('bhlmn/WindVerification')
 
 **getwspdwdir** - convert u and v wind components into wind speed and wind direction
 
+**getwdirerror** - calculate the wind direction error of a forecast/observation pair
+
 **ndbc10m** - calculate 10-m winds for a vector of wind speed measurements according to Hsu et al. (1994)
 
 **winds10m** - calculate 10-m winds for a vector of wind speed measurements using direction dependent surface roughness information

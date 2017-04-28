@@ -24,7 +24,7 @@ getemosmvrank(u, v, mu.u, mu.v, s.u, s.v, rho = 0, n = 21)
 \item{n}{number of ensemble members}
 }
 \value{
-numeric ... the raw ensemble multivariate rank
+numeric ... the emos multivariate rank
 }
 \description{
 Calculate the multivariate rank given vectors of u and v ensemble forecasts
